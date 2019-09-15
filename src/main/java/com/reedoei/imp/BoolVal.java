@@ -11,9 +11,7 @@ public class BoolVal extends Value {
 
     @Override
     public String toString() {
-        return "BoolVal{" +
-                "b=" + b +
-                '}';
+        return String.valueOf(b);
     }
 
     @Override
