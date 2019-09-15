@@ -1,4 +1,8 @@
-package com.reedoei.imp;
+package com.reedoei.imp.expression;
+
+import com.reedoei.imp.Environment;
+import com.reedoei.imp.IntVal;
+import com.reedoei.imp.Value;
 
 public abstract class BinaryExpr extends Expr {
     public static BinaryExpr from(final Expr e1, final String op, final Expr e2) {

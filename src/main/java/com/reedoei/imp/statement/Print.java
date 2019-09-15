@@ -1,4 +1,7 @@
-package com.reedoei.imp;
+package com.reedoei.imp.statement;
+
+import com.reedoei.imp.Environment;
+import com.reedoei.imp.expression.Expr;
 
 public class Print extends Stmt {
     private final Expr expr;

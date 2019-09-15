@@ -1,4 +1,8 @@
-package com.reedoei.imp;
+package com.reedoei.imp.expression;
+
+import com.reedoei.imp.Environment;
+import com.reedoei.imp.IntVal;
+import com.reedoei.imp.expression.Expr;
 
 public class IntExpr extends Expr {
     private final int i;

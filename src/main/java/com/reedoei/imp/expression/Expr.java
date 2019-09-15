@@ -1,5 +1,6 @@
-package com.reedoei.imp;
+package com.reedoei.imp.expression;
 
+import com.reedoei.imp.Evaluatable;
 import com.reedoei.imp.expr.ExprParser;
 
 import java.util.stream.Collectors;

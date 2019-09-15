@@ -1,4 +1,7 @@
-package com.reedoei.imp;
+package com.reedoei.imp.expression;
+
+import com.reedoei.imp.IntVal;
+import com.reedoei.imp.Value;
 
 public class BinaryAdd extends BinaryExpr {
     public BinaryAdd(final Expr e1, final Expr e2) {

@@ -1,4 +1,8 @@
-package com.reedoei.imp;
+package com.reedoei.imp.expression;
+
+import com.reedoei.imp.Environment;
+import com.reedoei.imp.Value;
+import com.reedoei.imp.expression.Expr;
 
 public class VarExpr extends Expr {
     private final String name;
