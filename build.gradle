@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+    id 'antlr'
+    id 'application'
+    id 'idea'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:27.0.1-jre'
+
+    antlr "org.antlr:antlr4:4.7.2"
+
+    testImplementation 'junit:junit:4.12'
+}
+
+// The below settings taken from: https://tomassetti.me/antlr-mega-tutorial/#java-setup
+generateGrammarSource {
+    maxHeapSize = "64m"
+    arguments += ['-package', 'com.reedoei.imp.expr', '-visitor']
+    outputDirectory = new File("src/main/java/com/reedoei/imp/expr".toString())
+}
+
+compileJava.dependsOn generateGrammarSource
+
+clean {
+    delete "src/main/java/com/reedoei/imp/expr"
+}
+
+mainClassName = 'com.reedoei.imp.App'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+version = '1.0'
+
