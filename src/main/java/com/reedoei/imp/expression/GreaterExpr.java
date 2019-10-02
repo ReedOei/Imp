@@ -1,7 +1,7 @@
 package com.reedoei.imp.expression;
 
-import com.reedoei.imp.BoolVal;
-import com.reedoei.imp.Value;
+import com.reedoei.imp.value.BoolVal;
+import com.reedoei.imp.value.Value;
 
 public class GreaterExpr extends BinaryExpr {
     public GreaterExpr(final Expr e1, final Expr e2) {

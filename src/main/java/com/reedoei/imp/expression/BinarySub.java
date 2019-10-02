@@ -1,7 +1,7 @@
 package com.reedoei.imp.expression;
 
-import com.reedoei.imp.IntVal;
-import com.reedoei.imp.Value;
+import com.reedoei.imp.value.IntVal;
+import com.reedoei.imp.value.Value;
 
 public class BinarySub extends BinaryExpr {
     public BinarySub(final Expr e1, final Expr e2) {

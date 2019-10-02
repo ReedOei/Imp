@@ -1,8 +1,8 @@
 package com.reedoei.imp.expression;
 
-import com.reedoei.imp.BoolVal;
+import com.reedoei.imp.value.BoolVal;
 import com.reedoei.imp.Environment;
-import com.reedoei.imp.Value;
+import com.reedoei.imp.value.Value;
 
 public class EqualExpr extends Expr {
     private final Expr e1;

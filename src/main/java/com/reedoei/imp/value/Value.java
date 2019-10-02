@@ -1,5 +1,6 @@
-package com.reedoei.imp;
+package com.reedoei.imp.value;
 
+import com.reedoei.imp.Environment;
 import com.reedoei.imp.expression.Expr;
 
 public abstract class Value extends Expr {

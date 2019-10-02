@@ -1,9 +1,9 @@
 package com.reedoei.imp.statement;
 
-import com.reedoei.imp.BoolVal;
 import com.reedoei.imp.Environment;
-import com.reedoei.imp.Value;
 import com.reedoei.imp.expression.Expr;
+import com.reedoei.imp.value.BoolVal;
+import com.reedoei.imp.value.Value;
 
 import java.util.List;
 
